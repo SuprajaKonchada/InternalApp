@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BusinessModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "BusinessModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BusinessModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../Business logic layer/BusinessLayer.csproj",
+      "msbuildProject": "../Business logic layer/BusinessLayer.csproj"
+    },
+    "BusinessModels/1.0.0": {
+      "type": "project",
+      "path": "../BusinessModels/BusinessModels.csproj",
+      "msbuildProject": "../BusinessModels/BusinessModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "BusinessLayer >= 1.0.0",
+      "BusinessModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Supraja Konchada\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Supraja Konchada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Supraja Konchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj"
+            },
+            "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
