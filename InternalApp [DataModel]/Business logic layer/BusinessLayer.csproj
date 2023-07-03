@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Business_logic_layer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessModels\BusinessModels.csproj" />
+    <ProjectReference Include="..\Data access layer\DataLayer.csproj">
+      <PrivateAssets>All</PrivateAssets>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

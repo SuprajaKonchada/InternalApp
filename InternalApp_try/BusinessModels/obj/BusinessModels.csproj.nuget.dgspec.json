@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {}
+    "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {
+    "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj",
+        "projectUniqueName": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj",
         "projectName": "BusinessModels",
-        "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj",
+        "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj",
         "packagesPath": "C:\\Users\\Supraja Konchada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\obj\\",
+        "outputPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Supraja Konchada\\AppData\\Roaming\\NuGet\\NuGet.Config",

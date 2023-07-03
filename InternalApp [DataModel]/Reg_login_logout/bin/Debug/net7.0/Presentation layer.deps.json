@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Presentation layer/1.0.0": {
+        "runtime": {
+          "Presentation layer.dll": {}
+        }
+      },
+      "Business logic layer/1.0.0": {
+        "dependencies": {
+          "Data access layer": "1.0.0"
+        },
+        "runtime": {
+          "Business logic layer.dll": {}
+        }
+      },
+      "Data access layer/1.0.0": {
+        "runtime": {
+          "Data access layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Presentation layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business logic layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data access layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

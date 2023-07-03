@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\Reg_login_logout\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Supraja Konchada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Reg_login_logout\\obj\\",
+      "outputPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\Reg_login_logout\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Supraja Konchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj"
+            "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\Business logic layer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\InternalApp_try\\BusinessModels\\BusinessModels.csproj"
+            "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp_try\\BusinessModels\\BusinessModels.csproj"
             }
           }
         }
