@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "js6rPMEaoAfCd20kWOdff5wdG1eCUFGaWI5vX/buhZ5o8mqwKImFmRu7jOAnV9vBv+i+LYkEugDdOKbVMCHdQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Supraja Konchada\\source\\repos\\Internal_App\\InternalApp [DataModel,Conversion]\\BusinessModels\\BusinessModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Supraja Konchada\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Supraja Konchada\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

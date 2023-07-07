@@ -1,0 +1,66 @@
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CopyComplete
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp\Data access layer\obj\Debug\net7.0\ref\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\DataModels.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\bin\Debug\net7.0\DataModels.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CopyComplete
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp_try\Data access layer\obj\Debug\net7.0\ref\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\DataModels.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\bin\Debug\net7.0\DataModels.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CopyComplete
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\InternalApp [DataModel]\Data access layer\obj\Debug\net7.0\ref\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\DataModels.dll
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\bin\Debug\net7.0\DataModels.pdb
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\DataLayer.csproj.CopyComplete
+C:\Users\Supraja Konchada\source\repos\Internal_App\InternalApp [DataModel,Conversion]\Data access layer\obj\Debug\net7.0\ref\DataLayer.dll
