@@ -4,6 +4,7 @@
     {
         Register = 1,
         Login = 2,
-        Exit = 3
+        GetUserDetails =3,
+        Exit = 4
     }
 }

@@ -1,6 +1,7 @@
 ﻿using BusinessLayer;
 using BusinessModels;
 
+
 namespace ConsoleApp
 {
     public class Authentication
@@ -39,7 +40,7 @@ namespace ConsoleApp
                 confirmPassword = reEnterpassword;
             }
 
-            if (BALAuth.ValidateUserData(user)) 
+            if (BALAuth.ValidateUserData(user))
             {
                 WriteAndReadMethods.Writeline(Literals.invalidDetails);
                 WriteAndReadMethods.Writeline(Literals.regAgain);
@@ -56,7 +57,7 @@ namespace ConsoleApp
         /// login of the user with correct credentials
         /// </summary>
         /// <returns></returns>
-        
+
         public bool login()
         {
             BALAuthentications BALAuth = new BALAuthentications();
@@ -66,7 +67,7 @@ namespace ConsoleApp
             WriteAndReadMethods.Writeline(Literals.enterPassword);
             string password = WriteAndReadMethods.Readline();
 
-            if (BALAuth.IsExist(user, username ,password))
+            if (BALAuth.IsExist(user, username, password))
             {
                 WriteAndReadMethods.Writeline(Literals.loginsuccess);
             }
@@ -75,11 +76,12 @@ namespace ConsoleApp
                 WriteAndReadMethods.Writeline(Literals.doesntExist);
                 return false;
             }
+
             WriteAndReadMethods.Writeline("");
             WriteAndReadMethods.Writeline(Literals.logout);
             WriteAndReadMethods.Writeline(Literals.exit1);
             WriteAndReadMethods.Writeline(Literals.enterchoice);
-            
+
             int choice = Convert.ToInt32(WriteAndReadMethods.Readline());
 
             if (choice == 1)
@@ -89,6 +91,29 @@ namespace ConsoleApp
             if (choice != 1)
             {
                 exit();
+            }
+            return false;
+        }
+        /// <summary>
+        /// User details
+        /// </summary>
+        /// <returns></returns>
+        public bool GetUser()
+        {
+            BALAuthentications BALAuth = new BALAuthentications();
+            User user = new User();
+            WriteAndReadMethods.Writeline(Literals.enterUsername);
+            string Username = WriteAndReadMethods.Readline();
+            WriteAndReadMethods.Writeline(Literals.enterPassword);
+            string Password = WriteAndReadMethods.Readline();
+            user = BALAuth.GetUserDetails(user, Username, Password);
+            if (user != null)
+            {
+                WriteAndReadMethods.Writeline(user.Email + " " + user.MobileNumber + "\n");
+            }
+            else
+            {
+                WriteAndReadMethods.Writeline(Literals.doesntExist);
             }
             return false;
         }

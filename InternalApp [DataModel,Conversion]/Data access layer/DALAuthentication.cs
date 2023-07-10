@@ -86,31 +86,29 @@ namespace DataLayer
             var configuration = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<TSourceModel, TTargetModel>();
-               // .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.Username));
             });
             // Creating IMapper instance
-            IMapper mapper = configuration.CreateMapper();
-            TTargetModel targetModel = mapper.Map<TTargetModel>(model);
-            return targetModel;
-        }
+            var mapper = new Mapper(configuration);
+            return mapper.Map<TSourceModel, TTargetModel>(model);
 
-            /* TTargetModel targetModel = Activator.CreateInstance<TTargetModel>();
-            TTargetModel targetModel = new TTargetModel();
-            PropertyInfo[] sourceProperties = typeof(TSourceModel).GetProperties();
-            PropertyInfo[] targetProperties = typeof(TTargetModel).GetProperties();
-            foreach (var sourceProperty in sourceProperties)
+        }
+        /* TTargetModel targetModel = Activator.CreateInstance<TTargetModel>();
+        TTargetModel targetModel = new TTargetModel();
+        PropertyInfo[] sourceProperties = typeof(TSourceModel).GetProperties();
+        PropertyInfo[] targetProperties = typeof(TTargetModel).GetProperties();
+        foreach (var sourceProperty in sourceProperties)
+        {
+            foreach (var targetProperty in targetProperties)
             {
-                foreach (var targetProperty in targetProperties)
+                if (sourceProperty.Name == targetProperty.Name && sourceProperty.PropertyType == targetProperty.PropertyType)
                 {
-                    if (sourceProperty.Name == targetProperty.Name && sourceProperty.PropertyType == targetProperty.PropertyType)
-                    {
-                        targetProperty.SetValue(targetModel, sourceProperty.GetValue(model));
-                        break;
-                    }
+                    targetProperty.SetValue(targetModel, sourceProperty.GetValue(model));
+                    break;
                 }
             }
-            return targetModel;*/
-        
+        }
+        return targetModel;*/
+
 
         /// <summary>
         /// inserts the details into list
@@ -120,16 +118,22 @@ namespace DataLayer
         {
             DataSource.users.Add(ConvertModel<BusinessModels.User, DataModels.User>(user));
         }
+        public BusinessModels.User GetDetails(string username, string password)
+        {
+            DataModels.User user = new DataModels.User();
+            user.Username = username;
+            user.Password = password;
+
+            DataModels.User user1 = DataSource.users.Find(u => u.Username == user.Username && u.Password == user.Password);
+            //    DataModels.User user = new DataModels.User();
+            if (user1 != null)
+            {
+                return ConvertModel<DataModels.User, BusinessModels.User>(user1);
+            }
+            return null;
+        }
     }
 }
 
 
 
-/*public void GetUsers()
-{
-    ///displays the usernames present in the list
-    for (int i = 0; i < DataSource.users.Count; i++)
-    {
-        literals.Writeline(DataSource.users[i].Username);
-    }
-}*/

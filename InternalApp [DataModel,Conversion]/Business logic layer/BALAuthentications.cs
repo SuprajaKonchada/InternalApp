@@ -1,5 +1,6 @@
 ﻿using DataLayer;
 using BusinessModels;
+using DataModels;
 
 namespace BusinessLayer
 {
@@ -11,7 +12,7 @@ namespace BusinessLayer
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        public bool ValidateUserData(User user)
+        public bool ValidateUserData(BusinessModels.User user)
         {
             BALValidations BALValidator = new BALValidations();
 
@@ -25,7 +26,7 @@ namespace BusinessLayer
         /// checks whether user is already exist or not
         /// </summary>
         /// <param name="user"></param>
-        public bool IsUserExist(User user)
+        public bool IsUserExist(BusinessModels.User user)
         {
             IDALAuthentication IDALAuth = dataObj.GetObj();
             return IDALAuth.IsUserAlreadyExist(user);
@@ -37,21 +38,27 @@ namespace BusinessLayer
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        public bool IsExist(User user,string username ,string password)
+        public bool IsExist(BusinessModels.User user, string username, string password)
         {
             IDALAuthentication IDALAuth = dataObj.GetObj();
-            return IDALAuth.IsLoginUserExist(user,username,password);
+            return IDALAuth.IsLoginUserExist(user, username, password);
         }
         /// <summary>
         /// Insert the details of user into the database of list
         /// </summary>
         /// <param name="user"></param>
-        public void details(User user)
+        public void details(BusinessModels.User user)
         {
             IDALAuthentication IDALAuth = dataObj.GetObj();
             IDALAuth.InsertDetails(user);
         }
+        public BusinessModels.User GetUserDetails(BusinessModels.User user, string username, string password)
+        {
+
+            IDALAuthentication IDALAuth = dataObj.GetObj();
+            return IDALAuth.GetDetails(username, password);
+        }
     }
 }
-        
+
 

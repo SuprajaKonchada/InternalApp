@@ -13,6 +13,7 @@ namespace Presentation_layer
             {
                 WriteAndReadMethods.Writeline(Literals.register);
                 WriteAndReadMethods.Writeline(Literals.login);
+                WriteAndReadMethods.Writeline(Literals.GetUserdetails);
                 WriteAndReadMethods.Writeline(Literals.exit);
                 WriteAndReadMethods.Writeline(Literals.enterchoice);
                 int choice = Convert.ToInt32(WriteAndReadMethods.Readline());
@@ -23,6 +24,9 @@ namespace Presentation_layer
                         break;
                     case MenuChoice.Login:
                         exit = auth.login();
+                        break;
+                    case MenuChoice.GetUserDetails:
+                        exit = auth.GetUser();
                         break;
                     case MenuChoice.Exit:
                         auth.exit();

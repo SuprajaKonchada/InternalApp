@@ -12,5 +12,9 @@ namespace DataLayer
         public dynamic ConvertModel<TSourceModel, TTargetModel>(dynamic model)
              where TSourceModel : new()
              where TTargetModel : new();
+
+        public BusinessModels.User GetDetails(string username, string password);
+
+
     }
 }

@@ -23,11 +23,12 @@
         public static string doesntExist = "Invalid username or password. Please try again.\n";
         public static string register = "1. Register";
         public static string login = "2. Login";
-        public static string exit = "3. Exit";
+        public static string exit = "4. Exit";
         public static string enterchoice = "Enter your choice: ";
         public static string goodbye = "Goodbye!";
         public static string logout = "1. Logout" ;
         public static string exit1 = "2. Exit";
         public static string regAgain = "Register again with valid details:\n";
+        public static string GetUserdetails = "3. GetUserDetails";
     }
 }
