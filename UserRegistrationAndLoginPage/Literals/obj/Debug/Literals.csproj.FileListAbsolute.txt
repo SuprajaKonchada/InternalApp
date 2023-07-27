@@ -1,0 +1,6 @@
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\bin\Debug\Literals.dll
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\bin\Debug\Literals.pdb
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\obj\Debug\Literals.csproj.AssemblyReference.cache
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\obj\Debug\Literals.csproj.CoreCompileInputs.cache
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\obj\Debug\Literals.dll
+C:\Users\Supraja Konchada\source\repos\UserRegistrationAndLoginPage\Literals\obj\Debug\Literals.pdb
